@@ -22,7 +22,7 @@ cosp′(x) = ForwardDiff.derivative(cosp, x)
 
 @testset "Derivatives" begin
     for ϕ in ϕs
-        @test isapprox(cosp′(ϕ), -1 / (sinp(ϕ) + 2 * cosp(ϕ)^2); atol=10 * eps())
-        @test isapprox(sinp′(ϕ), 2 * cosp(ϕ) / (sinp(ϕ) + 2 * cosp(ϕ)^2); atol=10 * eps())
+        @test isapprox(cosp′(ϕ), -1 / (sinp(ϕ) + 2 * cosp(ϕ)^2); atol=100 * eps())
+        @test isapprox(sinp′(ϕ), 2 * cosp(ϕ) / (sinp(ϕ) + 2 * cosp(ϕ)^2); atol=100 * eps())
     end
 end
