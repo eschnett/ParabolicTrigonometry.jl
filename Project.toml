@@ -2,3 +2,6 @@ name = "ParabolicTrigonometry"
 uuid = "2c67d0d1-3dd0-4e24-8359-dd001bbc3df8"
 authors = ["Erik Schnetter <schnetter@gmail.com>"]
 version = "0.1.0"
+
+[compat]
+julia = "1.6"
