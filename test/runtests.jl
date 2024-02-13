@@ -4,6 +4,12 @@ using Test
 
 const ϕs = [-4:4; 8 * rand(100) .- 4]
 
+@testset "Gudemann function" begin
+    for ϕ in ϕs
+        @test isapprox(tan(gudemann(ϕ)), tanh(ϕ); atol=10 * eps())
+    end
+end
+
 @testset "Simple tests" begin
     @test cosp(0) == 1
     @test sinp(0) == 0

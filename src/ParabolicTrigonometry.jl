@@ -9,7 +9,7 @@ export gudemann
 """
     gudemann(ϕ)
 
-The Gudemann function, defined by `tan(ϕ) = tanh(ϕ)`.
+The Gudemann function `gd`, defined by `tan(gd(ϕ)) = tanh(ϕ)`.
 """
 gudemann(ϕ) = atan(tanh(ϕ))
 
