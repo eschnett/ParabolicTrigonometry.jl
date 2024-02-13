@@ -10,3 +10,4 @@ video](https://www.youtube.com/watch?v=uIgt-H7l5As).
 * [Documentation](https://eschnett.github.io/ParabolicTrigonometry.jl/dev/)
 * [![GitHub
   CI](https://github.com/eschnett/ParabolicTrigonometry.jl/workflows/CI/badge.svg)](https://github.com/eschnett/ParabolicTrigonometry.jl/actions)
+* [![codecov](https://codecov.io/gh/eschnett/ParabolicTrigonometry.jl/graph/badge.svg?token=VMAL9L6DOQ)](https://codecov.io/gh/eschnett/ParabolicTrigonometry.jl)
