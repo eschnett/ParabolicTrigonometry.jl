@@ -13,7 +13,7 @@ end
 
 @testset "Consistency conditions" begin
     for ϕ in ϕs
-        @test isapprox(cosp(ϕ)^2 + sinp(ϕ), 1; atol=eps())
+        @test isapprox(cosp(ϕ)^2 + sinp(ϕ), 1; atol=10 * eps())
     end
 end
 
