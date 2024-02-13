@@ -1,5 +1,5 @@
-# ASDF2.jl
+# ParabolicTrigonometry.jl
 
 ```@autodocs
-Modules = [ASDF2]
+Modules = [ParabolicTrigonometry]
 ```
